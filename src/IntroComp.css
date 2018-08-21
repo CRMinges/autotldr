@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-style: oblique 10deg;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-logo {
+  //animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin-top: 20px;
+  transform: scale(2.5);
+}
+
+.App-title {
+  //font-size: large;
+  margin: 25px;
+  font-size: 1.3em;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: small;
+  opacity: .5;
+}
+
+.intentBtn {
+  margin: 3px;
+  background: rgba(255,255,255,.3);
+  padding: 7px 7px 10px 10px;
+  color: white;
+  transition: background .5s, color .5s;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: rgba(255,255,255,1);
+}
+
+.intentBtn:hover {
+  background: rgba(255,255,255,1);
+  color: #38aecc;
+}
+
+.intentBtn:active {
+  transform: translateY(2px);
+}
+
+.optionMsg {
+  color: white;
+  opacity: .5;
+/*  -moz-animation: fadeIn 5s infinite;
+  -o-animation: fadeIn 5s infinite;
+  -webkit-animation: fadeIn 5s infinite;*/
+  animation: 0.4s ease-out fadeIn 1;
+}
+
+@keyframes fadeIn {
+  0% { 
+    opacity: 0; 
+    visibility: hidden;
+  }
+  100% { 
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/*
+ @-moz-keyframes fadeIn {
+    0% { 
+    opacity: 0; 
+    visibility: hidden;
+  }
+  100% { 
+    opacity: 1;
+    visibility: visible;
+  }
+ }
+
+ @-webkit-keyframes fadeIn {
+    0% { 
+    opacity: 0; 
+    visibility: hidden;
+  }
+  100% { 
+    opacity: 1;
+    visibility: visible;
+  }
+ }
+
+ @-o-keyframes fadeIn {
+    0% { 
+    opacity: 0; 
+    visibility: hidden;
+  }
+  100% { 
+    opacity: 1;
+    visibility: visible;
+  }
+ }*/
