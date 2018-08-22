@@ -7,6 +7,8 @@ First, barring a selection of unimportant words (see stopWords.js), we calculate
 ## Usage
 First, download the project to your local machine. Then, if necessary `npm install`. Finally, to run `npm run`.
 
+![autotldr_ex](https://user-images.githubusercontent.com/18218109/44470788-93815800-a5f8-11e8-95e6-decbb8409627.gif)
+
 ## Known bugs, upcoming fixes/additions
 - Some abbreviations (i.e., Mr., Mrs., etc...) can give the algorithm a hard time when it comes to designating and splitting the original text in to individual sentences.
 - The next addition is that ability to pass the program your favorite news website, and it can generate a summary of the headlining articles.
